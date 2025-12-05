@@ -1,0 +1,6 @@
+node_modules
+workdir/*
+!workdir/logs
+!workdir/measurements
+*.local.json
+*.mcp.json
