@@ -49,7 +49,7 @@ However, it may be adopted by the company afterwards.
 
 ## Technology Stack
 
-**Implementation Language**: TypeScript (Node.js 22+ with experimental native TypeScript support)
+**Implementation Language**: TypeScript (Node.js 24+ with native TypeScript support)
 
 **Key Dependencies**:
 
@@ -61,7 +61,7 @@ However, it may be adopted by the company afterwards.
 
 - ESM modules (`"type": "module"`)
 - Pre-commit hooks via Husky (ESLint, Prettier, TypeScript checks)
-- Direct TypeScript execution using `--experimental-strip-types`
+- Direct TypeScript execution using `node`
 
 ## Development Setup
 
@@ -75,7 +75,7 @@ npm start           # Execute main application
 
 ### Available Scripts
 
-- `npm start` - Execute main application using Node.js experimental TypeScript support
+- `npm start` - Execute main application using Node.js
 - `npm test` - Run ESLint, Prettier, and TypeScript checks
 - `npm run eslint` / `npm run eslint:fix` - Lint checks and auto-fixes
 - `npm run prettier:check` / `npm run prettier:write` - Format checks and auto-formatting
