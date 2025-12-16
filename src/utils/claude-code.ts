@@ -51,6 +51,9 @@ export async function claudeCode(
 function isErrorAndMayContinue(message: AssistantMessage): boolean {
   if (assistantMessageStartsWith("API Error: 400", message)) return true;
 
+  if (assistantMessageStartsWith("Spending cap reached", message))
+    throw new ClaudeSessionLimitError("Claude spending cap reached");
+
   if (assistantMessageStartsWith("Session limit reached", message))
     throw new ClaudeSessionLimitError("Claude session limit reached");
 
