@@ -2,6 +2,8 @@
 
 An LLM-based agentic system for automatically adding type annotations to legacy JavaScript and TypeScript codebases.
 
+[![DOI](https://zenodo.org/badge/1110859576.svg)](https://doi.org/10.5281/zenodo.17954447)
+
 ## Key Principle: No Runtime Changes
 
 AgenticTyper only adds type annotations—it never modifies runtime behavior. This is verified through **transpilation comparison**: after each edit, a hook transpiles the modified code and compares it against the original JavaScript output. Any behavioral difference is immediately flagged to the agent.
