@@ -64,3 +64,11 @@ npm start <project-path>
 ```
 
 Run repeatedly to progress through phases.
+
+### Verify Behavioral Equivalence
+
+```bash
+node scripts/compare-transpiled.ts <project-path> <previous-git-ref>
+# Example:
+node scripts/compare-transpiled.ts ../my-legacy-project development
+```

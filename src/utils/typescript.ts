@@ -71,7 +71,7 @@ export async function transpile(
   return result.outputText;
 }
 
-function createOneTimeProgram(
+export function createOneTimeProgram(
   tsconfigPath: string,
   optionsOverride?: CompilerOptions,
 ): Program {
