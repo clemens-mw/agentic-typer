@@ -60,6 +60,10 @@ Built with the [Claude Agent SDK](https://docs.anthropic.com/en/docs/claude-code
 
 ## Usage
 
+Authenticate with the Claude Agent SDK by setting the `ANTHROPIC_API_KEY` environment variable or login to Claude Code with `claude`.
+
+Then run the following commands:
+
 ```bash
 npm install
 npm start <project-path>
