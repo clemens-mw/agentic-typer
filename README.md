@@ -3,6 +3,8 @@
 An LLM-based agentic system for automatically adding type annotations to legacy JavaScript and TypeScript codebases.
 
 [![DOI](https://zenodo.org/badge/1110859576.svg)](https://doi.org/10.5281/zenodo.17954447)
+[![Thesis](https://img.shields.io/badge/Thesis-10.48444/h__docs--pub--623-blue.svg)](https://doi.org/10.48444/h_docs-pub-623)
+[![arXiv](https://img.shields.io/badge/ICSE%20'26-arXiv:2602.21251-b31b1b.svg)](https://arxiv.org/abs/2602.21251)
 
 ## Key Principle: No Runtime Changes
 
