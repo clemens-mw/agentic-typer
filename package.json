@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
-    "@tsconfig/node-ts": "23.6.2",
+    "@tsconfig/node-ts": "23.6.4",
     "@tsconfig/node24": "24.0.3",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.10.0",
