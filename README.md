@@ -4,7 +4,9 @@ An LLM-based agentic system for automatically adding type annotations to legacy 
 
 [![DOI](https://zenodo.org/badge/1110859576.svg)](https://doi.org/10.5281/zenodo.17954447)
 [![Thesis](https://img.shields.io/badge/Thesis-10.48444/h__docs--pub--623-blue.svg)](https://doi.org/10.48444/h_docs-pub-623)
-[![arXiv](https://img.shields.io/badge/ICSE%20'26-arXiv:2602.21251-b31b1b.svg)](https://arxiv.org/abs/2602.21251)
+[![Paper](https://img.shields.io/badge/ICSE--Companion%20'26-10.1145/3774748.3787746-0085CA.svg)](https://doi.org/10.1145/3774748.3787746)
+[![ICSE 2026](https://img.shields.io/badge/ICSE%202026-SRC%20page-informational.svg)](https://conf.researchr.org/details/icse-2026/icse-2026-SRC/3/AgenticTyper-Automated-Typing-of-Legacy-Software-Projects-Using-Agentic-AI)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.21251-b31b1b.svg)](https://arxiv.org/abs/2602.21251)
 
 ## Key Principle: No Runtime Changes
 
