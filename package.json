@@ -18,7 +18,7 @@
     "@anthropic-ai/claude-agent-sdk": "0.1.77",
     "diff": "8.0.4",
     "eslint": "9.39.5",
-    "prettier": "3.6.2",
+    "prettier": "3.9.10",
     "typescript": "5.9.3",
     "typescript-eslint": "8.46.4"
   },
@@ -31,7 +31,7 @@
     "eslint": "9.39.5",
     "eslint-config-prettier": "10.1.8",
     "husky": "9.1.7",
-    "prettier": "3.6.2",
+    "prettier": "3.9.10",
     "typescript": "5.9.3",
     "typescript-eslint": "8.46.4"
   }
